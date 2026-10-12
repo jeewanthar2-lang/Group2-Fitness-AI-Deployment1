@@ -84,11 +84,7 @@ def kpis(items: list[tuple[str, str, str, str]]) -> None:
 
 
 def footer() -> None:
-    markup('''<div class="footer">🎓 IT2011 · Group 02 · Seven supervised ML models trained on the
-        1,979-record preprocessed fitness dataset. Source data was globally cleaned before
-        splitting, which may introduce data leakage. Results predict an educational dataset
-        label, not medical fitness or a diagnosis. Please use fictional or non-identifying
-        data for demonstration.</div>''')
+    markup('''<div class="footer"></div>''')
 
 
 def sidebar() -> str:
